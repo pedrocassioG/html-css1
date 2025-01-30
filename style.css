@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.texto-destaque{
+    color : #EB74ED
+}
+
+img{
+    border-radius: 50%;
+}
