@@ -60,15 +60,22 @@ body{
     justify-content: space-between;
 }
 
+.apresentacao__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links_link {
-    background-color: #22d4fd;
-    width: 280px;
+  /* background-color: #22d4fd; */
+    width: 378px;
     text-align: center;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 21.5px 0;
-    color: #000000;
+    color: #f6f6f6;
+    border: 2px solid #22d4fd;
 }
