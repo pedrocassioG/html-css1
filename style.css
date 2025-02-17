@@ -68,6 +68,9 @@ body{
 
 .apresentacao__links_link {
   /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     text-decoration: none;
@@ -78,4 +81,8 @@ body{
     padding: 21.5px 0;
     color: #f6f6f6;
     border: 2px solid #22d4fd;
+}
+
+.apresentacao__links_link:hover {
+    background-color: #272727;
 }
