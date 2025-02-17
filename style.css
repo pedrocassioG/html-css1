@@ -7,7 +7,9 @@
 }
 
 body{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #f6f6f6;
@@ -88,6 +90,7 @@ body{
 }
 
 .rodape {
+    margin-top: auto;   
     color: #000000;
     background-color: #22d4fd;
 }
