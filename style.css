@@ -86,3 +86,8 @@ body{
 .apresentacao__links_link:hover {
     background-color: #272727;
 }
+
+.rodape {
+    color: #000000;
+    background-color: #22d4fd;
+}
