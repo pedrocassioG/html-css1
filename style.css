@@ -26,7 +26,26 @@ body{
 .foto-pedro{
     width: 488px;
     height: 550px;
-    border-radius: 50%;
+    border-radius: 5%;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15% ;
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24;
+    color: #22d4fd;
+    
 }
 
 .apresentacao{
@@ -34,10 +53,11 @@ body{
     align-items: center;
     justify-content: space-between;
     /* margin: 15% 15%; */
-    padding-top: 05%;
+    /* padding-top: 05%;
     padding-bottom: 13%;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 15%; */
+    padding: 05% 15% 13% 15%;
 }
 
 .apresentacao__conteudo{
