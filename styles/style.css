@@ -167,10 +167,27 @@ li{
 .curriculo__texto{
     display: flex;
     flex-direction: column;
-    padding-right: 50%;
+    padding-right: 0%;
     justify-content: flex-start;
     color: #f6f6f6;
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
     height: 100vh;
+}
+
+.curriculo__texto__imagens{
+    display: flex;
+    align-items: center;
+}
+
+.imagem__html{
+    width: 90px;
+}
+
+.imagem__css{
+    width: 70px;
+}
+
+.imagem__js{
+    width: 80px;
 }
