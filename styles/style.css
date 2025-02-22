@@ -138,8 +138,9 @@ body{
 }
 
 .curriculo__subtitulo {
+    padding-top: 10px;
     padding-left: 30px;
-    font-family: "krona One";
+    font-family: "krona One"sans-serif;
     font-size: 30px;
     color: #EB74ED;
 
@@ -152,7 +153,7 @@ li{
 }
 .curriculo__texto__cor{
     color: #f6f6f6;
-    font-family: "Montserrat";
+    font-family: "Montserrat" sans-serif;
     font-size: 24px;
 
     
