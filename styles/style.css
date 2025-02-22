@@ -120,7 +120,7 @@ body{
     color: #000000;
     background-color: #22d4fd;
     text-align: center;
-    font-family:"montserraat", sans-serif;
+    font-family:"montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
@@ -128,10 +128,44 @@ body{
 
 
 .curriculo__nome{
+    padding: 24px;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 48px;
+    font-weight: 400;
+    font-size: 30px;
     color: #22d4fd;
+}
+
+.curriculo__subtitulo {
+    padding-left: 30px;
+    font-family: "krona One";
+    font-size: 30px;
+    color: #EB74ED;
+
+}
+
+li{
+    color: #EB74ED;
+    padding-left: 50px;
+    
+}
+.curriculo__texto__cor{
+    color: #f6f6f6;
+    font-family: "Montserrat";
+    font-size: 24px;
+
+    
+}
+
+.curriculo__texto{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50%;
+    justify-content: flex-start;
+    color: #f6f6f6;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+
+
 }
