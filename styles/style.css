@@ -17,9 +17,6 @@
 }
 
 body{
-    /* display: flex;
-    flex-direction: column; */
-    /* min-height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -63,11 +60,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 15% 15%; */
-    /* padding-top: 05%;
-    padding-bottom: 13%;
-    padding-left: 15%;
-    padding-right: 15%; */
     padding: 05% 15% 13% 15%;
 }
 
@@ -105,7 +97,6 @@ body{
 }
 
 .apresentacao__links_link {
-  /* background-color: #22d4fd; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -185,7 +176,6 @@ li{
     color:var(--cor-texto);
     font-family:var(--fonte-escrita);
     font-size: 24px;
-    /* height: 100vh; */
 }
 
 .curriculo__texto__imagens{
