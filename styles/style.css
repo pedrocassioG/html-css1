@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-fundo: #000000;
+    --cor-texto: #f6f6f6;
+    --cor-destaque: #22d4fd;
+    --cor-hover: #272727;
+    
+}
 
 *{
     margin: 0;
@@ -11,16 +18,16 @@ body{
     flex-direction: column; */
     /* min-height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
 }
 
 .titulo-destaque{
-    color: #22d4fd;
+    color: var(--cor-destaque);
 }
 
 .texto-destaque{
-    color : #EB74ED;
+    color : var(--cor-destaque);
 }
 
 .foto-pedro{
@@ -44,7 +51,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 24;
-    color: #22d4fd;
+    color: var(--cor-destaque);
     text-decoration: none;
 
 }
@@ -106,19 +113,19 @@ body{
     font-weight: 600;
     border-radius: 8px;
     padding: 21.5px 0;
-    color: #f6f6f6;
-    border: 2px solid #22d4fd;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-destaque);
 }
 
 .apresentacao__links_link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .rodape {
     margin-top: auto; 
     padding: 24px;
-    color: #000000;
-    background-color: #22d4fd;
+    color: var(--cor-fundo);
+    background-color: var(--cor-destaque);
     text-align: center;
     font-family:"montserrat", sans-serif;
     font-size: 24px;
@@ -141,7 +148,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 30px;
-    color: #22d4fd;
+    color: var(--cor-destaque);
 }
 
 .curriculo__subtitulo {
@@ -149,17 +156,17 @@ body{
     padding-left: 30px;
     font-family: "krona One"sans-serif;
     font-size: 30px;
-    color: #EB74ED;
+    color: var(--cor-destaque);
 
 }
 
 li{
-    color: #EB74ED;
+    color:var(--cor-destaque);
     padding-left: 50px;
 
 }
 .curriculo__texto__cor{
-    color: #f6f6f6;
+    color: var(--cor-texto);
     font-family: "Montserrat" sans-serif;
     font-size: 24px;
 
@@ -171,7 +178,7 @@ li{
     flex-direction: column;
     padding-right: 0%;
     justify-content: flex-start;
-    color: #f6f6f6;
+    color:var(--cor-texto);
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
     /* height: 100vh; */
@@ -192,6 +199,14 @@ li{
 }
 
 .imagem__js{
+    width: 80px;
+}
+
+.imagem__git{
+    width: 80px;
+}
+
+.imagem__github{
     width: 80px;
 }
 
