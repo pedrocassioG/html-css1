@@ -5,6 +5,9 @@
     --cor-texto: #f6f6f6;
     --cor-destaque: #22d4fd;
     --cor-hover: #272727;
+
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-escrita: "Montserrat", sans-serif;
     
 }
 
@@ -48,7 +51,7 @@ body{
 
 .cabecalho__menu__link {
 
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-escrita);
     font-weight: 600;
     font-size: 24;
     color: var(--cor-destaque);
@@ -78,12 +81,12 @@ body{
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
-    font-family:  "Krona One", sans-serif;
+    font-family:  var(--fonte-titulo);
 }
 
 .apresentacao__conteudo__texto{
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-escrita);
 }
 
 .apresentacao__links{
@@ -95,7 +98,7 @@ body{
 }
 
 .apresentacao__subtitulo{
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 24px;
 }
@@ -108,7 +111,7 @@ body{
     width: 378px;
     text-align: center;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-escrita);
     font-size: 24px;
     font-weight: 600;
     border-radius: 8px;
@@ -127,7 +130,7 @@ body{
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
     text-align: center;
-    font-family:"montserrat", sans-serif;
+    font-family:var(--fonte-escrita);
     font-size: 24px;
     font-weight: 400;
 }
@@ -145,7 +148,7 @@ body{
     padding: 24px;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 30px;
     color: var(--cor-destaque);
@@ -154,7 +157,7 @@ body{
 .curriculo__subtitulo {
     padding-top: 10px;
     padding-left: 30px;
-    font-family: "krona One"sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 30px;
     color: var(--cor-destaque);
 
@@ -167,7 +170,7 @@ li{
 }
 .curriculo__texto__cor{
     color: var(--cor-texto);
-    font-family: "Montserrat" sans-serif;
+    font-family: var(--fonte-escrita);
     font-size: 24px;
 
 
@@ -179,7 +182,7 @@ li{
     padding-right: 0%;
     justify-content: flex-start;
     color:var(--cor-texto);
-    font-family: 'Montserrat' sans-serif;
+    font-family:var(--fonte-escrita);
     font-size: 24px;
     /* height: 100vh; */
 }
