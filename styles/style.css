@@ -117,7 +117,7 @@ body{
 }
 
 .rodape {
-    margin-top: auto; 
+    margin-top: 100vh;
     padding: 24px;
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
