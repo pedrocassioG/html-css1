@@ -31,13 +31,12 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 488px;
-    height: 550px;
+    width: 50%;
     border-radius: 3%;
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15% ;
+    padding: 5% 15% ;
 
 }
 
@@ -60,12 +59,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 02% 15% 13% 15%;
+    padding: 5% 15%;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
-    height: 482px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -96,11 +95,11 @@ body{
     font-size: 1.5rem;
 }
 
-.apresentacao__links_link {
+.apresentacao__links_navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     font-family: var(--fonte-escrita);
@@ -236,4 +235,69 @@ li{
 .curriculo__texto__academico{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+ 
+
+@media (max-width:768px){
+    .cabecalho__menu{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .rodape__index {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+        padding: 16px; /* Reduz o espaçamento interno */
+    }
+    .rodape__curriculo {
+        font-size: 1.2rem;
+        padding: 16px;
+    }
+
+    .curriculo__nome {
+        font-size: 1.8rem;
+        padding: 16px;
+    }
+
+    .curriculo__subtitulo {
+        font-size: 1.8rem;
+        padding-left: 20px;
+    }
+
+    li {
+        padding-left: 30px;
+    }.curriculo__texto {
+        font-size: 1.2rem;
+    }
+
+    .curriculo__texto__imagens {
+        padding-left: 30px;
+    }
+
+    .imagem__html,
+    .imagem__css,
+    .imagem__js,
+    .imagem__git,
+    .imagem__github {
+        width: 70px;
+    }
+}
 }
