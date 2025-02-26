@@ -106,7 +106,7 @@ body{
     font-size: 1.5rem;
     font-weight: 600;
     border-radius: 8px;
-    padding: 21.5px 0;
+    padding: 1.31rem;
     color: var(--cor-texto);
     border: 4px solid var(--cor-destaque);
 }
@@ -128,7 +128,7 @@ body{
 }
 
 .rodape__index {
-    margin-top: -4vh;
+    margin-top: auto;
     padding: 24px;
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
@@ -249,7 +249,8 @@ li{
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        gap: 40px;
+        padding: 5%, 10%;
     }
 
     .apresentacao__conteudo{
@@ -264,8 +265,8 @@ li{
         align-items: center;
     }
     .rodape__index {
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
-        padding: 16px; /* Reduz o espaçamento interno */
+        font-size: 1.2rem;
+        padding: 16px;
     }
     .rodape__curriculo {
         font-size: 1.2rem;
@@ -290,6 +291,7 @@ li{
 
     .curriculo__texto__imagens {
         padding-left: 30px;
+        flex-wrap: wrap;
     }
 
     .imagem__html,
